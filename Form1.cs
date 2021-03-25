@@ -37,7 +37,7 @@ namespace Teste1
             PESO2 = double.Parse(PESO.Text);
             ALTURA2 = double.Parse(ALTURA.Text);
             IMC = PESO2 / (ALTURA2 * ALTURA2);
-            FINAL2 = IMC * 10000
+            FINAL2 = IMC * 10000;
             MessageBox.Show("Seu Imc é : " + FINAL2, "Resultado", MessageBoxButtons.OK);
         }
     }
