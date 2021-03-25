@@ -33,6 +33,8 @@ namespace Teste1
 
         private void GO_Click(object sender, EventArgs e)
         {
+        Form2 Form2 = new Form2();
+        Form2.Show();
         double IMC, ALTURA2, PESO2, FINAL2;
             PESO2 = double.Parse(PESO.Text);
             ALTURA2 = double.Parse(ALTURA.Text);
